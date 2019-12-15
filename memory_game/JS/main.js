@@ -42,13 +42,23 @@ console.log(cards[cardId].cardImage)
 console.log(cards[cardId].suit)
 
 };
+
+var createBoard = function () {
+for (var i = 0; i < cards.length; i++);
+	cardElement.setAttribute('attributeName', 'attributeValue');
+cardElement.setAttribute('data-i');
+	var cardElement = document.createElement('img');
+
+	cardElement.addEventListener('click', flipCard);
+	document.querySelectorAll[i].appendChild(cardElement);
+
 }
 
 
 
 
-var cardId=flipCard(0)
-flipCard(2);
+createBoard();
+
 
 
 
